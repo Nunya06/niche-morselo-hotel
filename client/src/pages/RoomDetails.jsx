@@ -19,7 +19,7 @@ const RoomDetails = () => {
     <div className='py-28 md:py-35 px-4 md:px-16 lg:px-24 xl:px-32'>
         <div className="flex flex-col md:flex-row items-start md:items-cneter gap-2">
             <h1 className='text-3xl md:text-4xl '>{room.hotel.name} <span className='text-sm'>({room.roomType})</span></h1>
-            <p className='text-xs py-1.5 px-3 text-white bg-orange-500 rounded-full '>10% OFF</p>
+            <p className='text-xs py-1.5 px-3 text-white bg-orange-400 rounded-full '>10% OFF</p>
         </div>
       
     </div>
